@@ -205,3 +205,58 @@
     line-height: 26px;
     font-size: 16px;
 }
+
+
+/* Donate Plan End */
+
+.newslatter-wrapper {
+    padding: 100px 0;
+
+}
+
+.newslatter-form {
+    width: 825px;
+    margin: auto;
+    padding: 75px 180px;
+    background: #FFF4D6;
+    
+}
+
+.newslatter-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.email-field {
+    flex: 0 0 70%;
+}
+
+.subscribe-btn {
+    flex: 0 0 30%;
+}
+
+.email-field input {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+.subscribe-btn input {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5959;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
