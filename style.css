@@ -3,8 +3,72 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+.container {
+    width: 80%;
+    margin: auto;
+}
 
-body{
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
+.hero-wrapper {
+    padding: 175px 0;
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-wrapper:before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+
+.hero-container {
+    width: 825px;
+    margin: auto;
+}
+
+.hero-headding h2 {
+    font-size: 65px;
+    line-height: auto;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+
+.hero-desc p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding: 0 90px;
+}
+
+.hero-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: auto;
+    padding: 16px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
 }
