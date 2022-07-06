@@ -260,3 +260,20 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+
+/* Subscribe Section End */
+
+.footer-wrapper {
+    padding: 40px 0;
+    background: #0B0D17;
+}
+
+.footer-top-text {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.footer-bottom-text p {
+    text-align: center;
+    color: #D9DBE1;
+}
